@@ -17,7 +17,7 @@
                 @csrf
                 <div class="row">
                     <div class="col-10">
-                        <input type="text" class="form-control" value="<?php if (isset($result)) {
+                        <input type="text" class="form-control" style="text-align: right" value="<?php if (isset($result)) {
                             echo $result;
                         } ?>" id="result" name="result">
                     </div>
